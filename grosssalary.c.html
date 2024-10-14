@@ -1,0 +1,35 @@
+#include <stdio.h>
+void main()
+{
+   float a,b,c,d;
+   //printf("Enter the salary :");
+   scanf("%f",&a);
+   if(a<1500)
+   {
+       c=a*(10/100.0);
+       b=a*(90/100.0);
+       d=a+b+c;
+       printf("%f",d);
+       
+      
+   }
+   else if (a>=1500)
+   {
+       c=500;
+       b=a*(98/100.0);
+       d=a+b+c;
+       printf("%f",d);
+   }
+
+   else
+   {
+       printf("invalid");
+   }
+
+   
+    
+}
+
+
+
+

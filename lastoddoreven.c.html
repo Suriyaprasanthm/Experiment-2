@@ -1,0 +1,22 @@
+#include <stdio.h>
+void main()
+{
+    int a,b,c;
+    //printf("enter number 1 :");
+    scanf("%d",&a);
+    //printf("enter number 2 :");
+    scanf("%d",&b);
+    a=a%10;
+    b=b%10;
+    c=a+b;
+    if(c&1==1)
+    {
+        printf("The number is odd");
+    }
+    else
+    {
+        printf("The number is even");
+    }
+    
+}
+
